@@ -1,0 +1,10 @@
+* {
+  background-color: burlywood;
+  font: monospace;
+}
+
+.hand {
+  background-color: aquamarine;
+  border: 3px solid #14d561;
+  opacity: 0.14;
+}

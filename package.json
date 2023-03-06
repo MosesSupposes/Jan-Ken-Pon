@@ -1,0 +1,13 @@
+{
+  "name": "jonkenpon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "open src/index.html"
+  },
+  "author": "Wakamomo & aten6",
+  "license": "ISC",
+  "dependencies": {}
+}
