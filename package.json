@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "start": "open src/index.html"
+    "start": "rescript && open src/index.html",
+    "compile": "rescript build -w"
   },
   "author": "Wakamomo & aten6",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "rescript": "^10.1.2"
+  }
 }
