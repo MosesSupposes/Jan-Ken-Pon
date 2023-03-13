@@ -5,6 +5,9 @@
 
 .hand {
   background-color: aquamarine;
+  opacity: 0.4;
   border: 3px solid #14d561;
   opacity: 0.14;
+  color: white;
 }
+
