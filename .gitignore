@@ -1,3 +1,4 @@
+# Ocaml/ReScript stuff
 *.exe
 *.obj
 *.out
@@ -31,6 +32,7 @@ lib/bs
 /node_modules
 /.pnp
 .pnp.js
+package-lock.json
 
 # testing
 /coverage
@@ -49,4 +51,3 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-package-lock.json
