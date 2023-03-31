@@ -9,10 +9,10 @@ import './styles/App.css';
 function App(props) {
   return React.createElement("div", undefined, React.createElement("h1", undefined, "Jan! Ken! Pon!"), React.createElement(Mudra.make, {
                   hand: /* LeftHand */0,
-                  mudra: /* Rock */0
+                  mudra: /* Scissors */2
                 }), React.createElement(Mudra.make, {
                   hand: /* RightHand */1,
-                  mudra: /* Rock */0
+                  mudra: /* Paper */1
                 }));
 }
 
