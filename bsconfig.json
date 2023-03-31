@@ -1,5 +1,5 @@
 {
-  "name": "jon-ken-pon",
+  "name": "jan-ken-pon",
   "version": "0.1.0",
   "sources": {
     "dir": "src",
@@ -9,5 +9,11 @@
     "module": "es6",
     "in-source": true
   },
-  "suffix": ".bs.js"
+  "suffix": ".bs.js",
+  "jsx": { "version": 4, "mode": "classic" },
+  "bs-dependencies": ["@rescript/react"],
+  "bs-dev-dependencies": [
+    "@glennsl/bs-jest", 
+    "bs-react-testing-library"
+  ]
 }

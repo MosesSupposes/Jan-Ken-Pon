@@ -1,0 +1,26 @@
+rescript = 1
+rule cp
+  command = cp $i $out
+rule touch
+ command = touch $out
+o App.cmi : cp ../bs/src/App.cmi
+o App.cmj : cp ../bs/src/App.cmj
+o App.cmt : cp ../bs/src/App.cmt
+o App.res : cp ../../src/App.res
+o Index.cmi : cp ../bs/src/Index.cmi
+o Index.cmj : cp ../bs/src/Index.cmj
+o Index.cmt : cp ../bs/src/Index.cmt
+o Index.res : cp ../../src/Index.res
+o Mudra.cmi : cp ../bs/src/components/mudra/Mudra.cmi
+o Mudra.cmj : cp ../bs/src/components/mudra/Mudra.cmj
+o Mudra.cmt : cp ../bs/src/components/mudra/Mudra.cmt
+o Mudra.res : cp ../../src/components/mudra/Mudra.res
+o Mudra.resi : cp ../../src/components/mudra/Mudra.resi
+o Mudra.cmti : cp ../bs/src/components/mudra/Mudra.cmti
+o Game.cmi : cp ../bs/src/core/Game.cmi
+o Game.cmj : cp ../bs/src/core/Game.cmj
+o Game.cmt : cp ../bs/src/core/Game.cmt
+o Game.res : cp ../../src/core/Game.res
+o Game.resi : cp ../../src/core/Game.resi
+o Game.cmti : cp ../bs/src/core/Game.cmti
+build install.stamp : touch App.cmi App.cmj Index.cmi Index.cmj Mudra.cmi Mudra.cmj Game.cmi Game.cmj 

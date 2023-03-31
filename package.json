@@ -1,15 +1,41 @@
 {
-  "name": "jonkenpon",
+  "name": "jan-ken-pon",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "rescript && open src/index.html",
-    "compile": "rescript build -w"
+    "start": "rescript && react-scripts start",
+    "build": "rescript && react-scripts build",
+    "build:watch": "rescript build -w && react-scripts build",
+    "view": "serve -s build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "author": "Wakamomo & aten6",
+  "author": "MosesSupposes & aten6",
   "license": "ISC",
   "dependencies": {
+    "@glennsl/bs-jest": "^0.7.0",
+    "@rescript/react": "^0.11.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bs-react-testing-library": "^0.8.0",
+    "cra-template-rescript": "1.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
     "rescript": "^10.1.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

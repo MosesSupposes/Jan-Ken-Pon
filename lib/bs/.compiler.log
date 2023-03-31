@@ -1,0 +1,24 @@
+#Start(1680282193839)
+
+  Warning number 27
+  /Users/moses/Code/sandbox/makomos-playground/jan-ken-pon/src/core/Game.res:32:23-28
+
+  30 │ let jonkenpon = determineWinner
+  31 │ 
+  32 │ let determineScore = (player, matchHistory) => 0
+  33 │ 
+
+  unused variable player.
+
+
+  Warning number 27
+  /Users/moses/Code/sandbox/makomos-playground/jan-ken-pon/src/core/Game.res:32:31-42
+
+  30 │ let jonkenpon = determineWinner
+  31 │ 
+  32 │ let determineScore = (player, matchHistory) => 0
+  33 │ 
+
+  unused variable matchHistory.
+
+#Done(1680282193882)
